@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diario de HCI — Samuel Robledo</title>
+  <meta name="description" content="Diario académico del curso Interacción Humano Computador. Samuel Antonio Robledo López, Universidad del Valle de Guatemala." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════
+     NAVBAR
+══════════════════════════════════ -->
+<nav id="navbar">
+  <span class="nav-brand">Diario HCI</span>
+  <button class="nav-toggle" id="nav-toggle" aria-label="Menú">
+    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path d="M3 12h18M3 6h18M3 18h18"/>
+    </svg>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#hero">Inicio</a></li>
+    <li><a href="#gestalt">Gestalt</a></li>
+    <li><a href="#hci-importancia">HCI</a></li>
+    <li><a href="#norman">Norman</a></li>
+    <li><a href="#interfaces">Interfaces</a></li>
+    <li><a href="#interacciones">Interacciones</a></li>
+    <li><a href="#colores">Colores</a></li>
+    <li><a href="#objetos">Objetos</a></li>
+    <li><a href="#ai-design">IA & Diseño</a></li>
+    <li><a href="#conclusion">Conclusión</a></li>
+  </ul>
+</nav>
+
+<!-- ══════════════════════════════════
+     HERO
+══════════════════════════════════ -->
+<div id="hero">
+  <div class="hero-eyebrow">Universidad del Valle de Guatemala · 2025</div>
+  <h1>Diario de HCI</h1>
+  <div class="hero-meta">
+    <span>Samuel Antonio Robledo López</span>
+    <span>Carné 241282</span>
+    <span>Interacción Humano Computador</span>
+  </div>
+  <p class="hero-intro">
+    Este diario reúne observaciones y análisis que fui haciendo durante el curso. La idea fue conectar
+    lo que vimos en clase con ejemplos reales: interfaces, objetos cotidianos, colores, y situaciones
+    donde el diseño claramente ayuda o falla. No es un resumen teórico; es más bien un registro de
+    cosas que empecé a notar una vez que empecé a pensar en HCI de verdad.
+  </p>
+</div>
+
+<main>
+
+<!-- ══════════════════════════════════
+     1. GESTALT
+══════════════════════════════════ -->
+<section id="gestalt" class="section">
+  <span class="section-tag">Semana 1</span>
+  <h2 class="section-title">Gestalt</h2>
+  <p class="section-subtitle">
+    La psicología de Gestalt explica cómo el cerebro organiza visualmente la información. La tarea fue
+    encontrar 3 objetos cotidianos que apliquen alguno de sus principios y analizarlos.
+  </p>
+
+  <div class="cards-grid">
+
+    <!-- Ejemplo 1: Íconos del celular -->
+    <div class="card">
+      <div class="card-img">
+        <img src="assets/gestalt/iconos-celular.svg" alt="Íconos de aplicaciones agrupados en el celular"
+             onerror="this.parentElement.innerHTML='<div style=\'padding:1.5rem;text-align:center;color:var(--ink-muted);font-style:italic;\'><svg width=40 height=40 fill=none stroke=currentColor stroke-width=1.5 viewBox=\'0 0 24 24\'><rect x=3 y=3 width=18 height=18 rx=3/><path d=\'M3 9h18M9 21V9\'/></svg><br><br>📷 Insertar foto de la pantalla de inicio del celular con las apps agrupadas</div>'">
+      </div>
+      <div class="card-body">
+        <span class="card-label">Objeto 1</span>
+        <h3 class="card-title">Íconos de apps en el celular</h3>
+        <span class="badge">Proximidad</span>
+        <span class="badge badge-gold">Similitud</span>
+        <p><strong>¿Dónde?</strong> Pantalla de inicio de mi celular, en casa.</p>
+        <p>
+          Lo que vi fue que tenía varias apps agrupadas en carpetas según el tipo: redes sociales juntas,
+          herramientas de trabajo en otra carpeta, y juegos en otra. Sin que nadie me lo explicara,
+          entendí de inmediato que esas apps "pertenecen" al mismo grupo, solo por cómo están ubicadas
+          y porque visualmente se parecen en tamaño e ícono.
+        </p>
+        <div class="highlight">
+          Lo que me llamó la atención fue que no hace falta que nadie explique cómo leer la pantalla.
+          Uno entiende rápido qué elementos van juntos solo por cómo están acomodados y qué tan parecidos
+          se ven entre sí. Eso es exactamente Gestalt funcionando sin que uno lo note.
+        </div>
+        <p>
+          <strong>Análisis:</strong> El principio de <em>proximidad</em> agrupa apps cercanas como una
+          unidad. El de <em>similitud</em> funciona porque los íconos tienen el mismo tamaño y bordes
+          redondeados, lo que hace que el cerebro los perciba como del mismo "tipo". Juntos facilitan
+          muchísimo la navegación.
+        </p>
+      </div>
+    </div>
+
+    <!-- Ejemplo 2: Señalización en pasillos -->
+    <div class="card">
+      <div class="card-img">
+        <img src="assets/gestalt/senalizacion.svg" alt="Señalización de pasillos con líneas guía"
+             onerror="this.parentElement.innerHTML='<div style=\'padding:1.5rem;text-align:center;color:var(--ink-muted);font-style:italic;\'><svg width=40 height=40 fill=none stroke=currentColor stroke-width=1.5 viewBox=\'0 0 24 24\'><path d=\'M3 12h18M3 6h18M3 18h18\'/></svg><br><br>📷 Insertar foto de señalización de pasillo o supermercado con flechas direccionales</div>'">
+      </div>
+      <div class="card-body">
+        <span class="card-label">Objeto 2</span>
+        <h3 class="card-title">Señalización en pasillos del supermercado</h3>
+        <span class="badge">Continuidad</span>
+        <p><strong>¿Dónde?</strong> Supermercado cerca de la universidad, pasillo central.</p>
+        <p>
+          El piso tenía una franja de color que recorría todo el pasillo principal, y había flechas
+          cada cierto tramo apuntando hacia la caja. Aunque estaba distraído buscando algo, mi vista
+          seguía automáticamente esa línea sin que yo lo decidiera conscientemente.
+        </p>
+        <div class="highlight">
+          Fue interesante notar que la línea en el piso no tenía que ser continua para que funcionara.
+          Había huecos, pero el ojo igual completaba el recorrido. Eso es exactamente el principio de
+          continuidad: el cerebro tiende a seguir una dirección aunque no sea perfecta.
+        </div>
+        <p>
+          <strong>Análisis:</strong> El principio de <em>continuidad</em> hace que el ojo siga una
+          trayectoria sin interrupciones percibidas. En diseño de tiendas esto es deliberado para
+          guiar al cliente hacia cajas o secciones específicas. Es un uso muy claro de Gestalt
+          aplicado al espacio físico.
+        </p>
+      </div>
+    </div>
+
+    <!-- Ejemplo 3: Empaque de bebida -->
+    <div class="card">
+      <div class="card-img">
+        <img src="assets/gestalt/empaque-bebida.svg" alt="Empaque de bebida con figura y fondo"
+             onerror="this.parentElement.innerHTML='<div style=\'padding:1.5rem;text-align:center;color:var(--ink-muted);font-style:italic;\'><svg width=40 height=40 fill=none stroke=currentColor stroke-width=1.5 viewBox=\'0 0 24 24\'><rect x=3 y=3 width=18 height=18 rx=3/><circle cx=12 cy=12 r=4/></svg><br><br>📷 Insertar foto del empaque de bebida o producto con contraste figura-fondo claro</div>'">
+      </div>
+      <div class="card-body">
+        <span class="card-label">Objeto 3</span>
+        <h3 class="card-title">Empaque de lata de bebida energética</h3>
+        <span class="badge">Figura-Fondo</span>
+        <p><strong>¿Dónde?</strong> Tienda de la universidad, refrigerador de bebidas.</p>
+        <p>
+          El empaque tenía un logo grande en colores brillantes sobre un fondo oscuro. Lo primero
+          que vi fue el logo, no el fondo. Luego me fijé que el fondo tenía un patrón geométrico
+          sutil que, si lo miraba directamente, empezaba a "competir" con el logo.
+        </p>
+        <div class="highlight">
+          Me pareció interesante que el diseño usa el contraste para que el logo sea siempre lo que
+          uno ve primero, aunque el fondo tenga detalle. Si el contraste fuera menor, el cerebro
+          tendría más trabajo para separar figura de fondo, y la marca perdería presencia.
+        </div>
+        <p>
+          <strong>Análisis:</strong> El principio de <em>figura-fondo</em> establece que el cerebro
+          separa automáticamente un objeto del fondo que lo rodea. En el empaque, el alto contraste
+          asegura que el logo sea siempre la figura y el patrón quede relegado al fondo. También
+          hay algo de <em>cierre</em> en cómo el logo incompleto igual se percibe como completo.
+        </p>
+      </div>
+    </div>
+
+  </div><!-- /cards-grid -->
+</section>
+
+<!-- ══════════════════════════════════
+     2. IMPORTANCIA DE HCI (User Inyerface)
+══════════════════════════════════ -->
+<div class="section-alt" id="hci-importancia">
+<section class="section" style="padding-top:0;padding-bottom:0;">
+  <span class="section-tag">Semana 2</span>
+  <h2 class="section-title">Importancia de HCI</h2>
+  <p class="section-subtitle">
+    La actividad consistió en entrar a <a href="https://userinyerface.com" target="_blank">userinyerface.com</a>
+    y completar el formulario, registrando el tiempo que tomó. El sitio está diseñado deliberadamente para
+    ser frustrante.
+  </p>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:2rem;" class="two-col">
+
+    <div>
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;margin-bottom:1rem;">¿Qué es User Inyerface?</h3>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        User Inyerface es un sitio web creado para demostrar, de forma bastante directa, qué pasa cuando
+        una interfaz ignora completamente los principios de HCI. No está roto por accidente; cada elemento
+        está diseñado para confundir al usuario de alguna forma.
+      </p>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        El objetivo era llenar un formulario de registro simple. Suena fácil. No lo es.
+      </p>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;margin:.25rem 0 1rem;">Problemas encontrados</h3>
+      <ul style="color:var(--ink-soft);padding-left:1.25rem;display:flex;flex-direction:column;gap:.5rem;">
+        <li>El botón de "aceptar" y el de "rechazar" estaban intercambiados visualmente.</li>
+        <li>El checkbox de términos requería desmarcar, no marcar.</li>
+        <li>El cursor desaparecía o apuntaba en dirección contraria en algunos campos.</li>
+        <li>Los campos de texto tenían el placeholder en letras difíciles de leer.</li>
+        <li>El campo de contraseña mostraba todo el texto, y no había forma obvia de ocultarlo.</li>
+        <li>Los colores no daban ninguna pista sobre qué era interactivo y qué era decorativo.</li>
+        <li>El selector de fecha tenía el orden invertido (año-mes-día al revés).</li>
+      </ul>
+    </div>
+
+    <div>
+      <div class="screenshot-frame">
+        <div class="screenshot-bar">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <span style="font-size:.72rem;color:var(--ink-muted);margin-left:.5rem;">userinyerface.com</span>
+        </div>
+        <img src="assets/user-inyerface/tiempo-final.svg" alt="Tiempo registrado en User Inyerface" style="width:100%;border-radius:12px;"/>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="highlight" style="font-size:1rem;">
+    Al principio pensé que sería un formulario normal, pero en el segundo campo ya me di cuenta de que
+    algo estaba mal. Tuve que leer cada instrucción dos veces porque nada funcionaba como esperaba. Esta
+    actividad me ayudó a notar que una mala interfaz no solo hace perder tiempo, también genera frustración
+    real y hace que uno dude de cada paso que da.
+  </div>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;margin:2rem 0 1rem;">¿Qué enseña esto sobre HCI?</h3>
+  <div class="cards-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr));">
+    <div class="card"><div class="card-body">
+      <div class="badge">Retroalimentación</div>
+      <p>El sistema no indicaba si el usuario hacía algo bien o mal. No había mensajes claros de error ni confirmaciones.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge badge-gold">Consistencia</div>
+      <p>Los elementos interactivos no se comportaban de forma predecible. Lo que funcionaba en un campo no funcionaba en otro.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge" style="background:#c0392b;">Control del usuario</div>
+      <p>No había forma de deshacer acciones ni de navegar hacia atrás sin perder el progreso.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge" style="background:#8e44ad;">Affordance</div>
+      <p>Los elementos no comunicaban visualmente para qué servían. Un botón parecía texto decorativo y viceversa.</p>
+    </div></div>
+  </div>
+</section>
+</div>
+
+<!-- ══════════════════════════════════
+     3. MODELO DE INTERACCIÓN DE NORMAN
+══════════════════════════════════ -->
+<section id="norman" class="section">
+  <span class="section-tag">Semana 3</span>
+  <h2 class="section-title">Modelo de Interacción de Norman</h2>
+  <p class="section-subtitle">
+    El Modelo de Norman describe las 7 etapas que atraviesa una persona al interactuar con un sistema.
+    Lo apliqué a una situación real que me resultó confusa: pagar en una máquina de parqueo.
+  </p>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-bottom:2rem;align-items:start;" class="two-col">
+    <div>
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;margin-bottom:1rem;">La situación</h3>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        Estaba en el parqueo de un centro comercial y necesitaba pagar antes de salir. La máquina de
+        pago tenía una pantalla táctil, un lector de ticket, un lector de tarjeta y varios botones
+        físicos. No quedaba claro qué hacer primero.
+      </p>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        El problema no fue que la máquina tuviera muchas opciones, sino que no quedaba claro cuál era
+        el siguiente paso después de insertar el ticket. La pantalla mostraba varias cosas al mismo tiempo
+        y ningún botón estaba claramente etiquetado como "continuar" o "pagar".
+      </p>
+      <p style="color:var(--ink-soft);">
+        Hubo un momento en que pensé que había pagado, pero la barrera no abrió. Tuve que volver a la
+        máquina y darme cuenta de que el proceso tenía un paso más que no había visto.
+      </p>
+    </div>
+    <div>
+      <div class="img-placeholder">
+        <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+        </svg>
+        <strong>Imagen opcional</strong>
+        📷 Insertar foto de la máquina de parqueo o similar
+      </div>
+    </div>
+  </div>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;margin-bottom:1rem;">Las 7 Etapas del Modelo de Norman</h3>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Etapa</th>
+          <th>¿Qué ocurrió?</th>
+          <th>¿Qué falló?</th>
+          <th>Tipo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>1</strong></td>
+          <td><strong>Formar la meta</strong></td>
+          <td>Quería pagar el parqueo y salir del centro comercial.</td>
+          <td>No hubo falla aquí; la meta era clara desde el inicio.</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td><strong>2</strong></td>
+          <td><strong>Formar la intención</strong></td>
+          <td>Decidí usar la máquina de pago en la entrada del parqueo.</td>
+          <td>No sabía si tenía que pagar ahí o directamente en la barrera de salida.</td>
+          <td><span class="tag-exec">Ejecución</span></td>
+        </tr>
+        <tr>
+          <td><strong>3</strong></td>
+          <td><strong>Especificar la acción</strong></td>
+          <td>Intenté identificar qué hacer primero: ¿insertar ticket, tocar la pantalla, seleccionar método de pago?</td>
+          <td>La máquina no tenía una secuencia visible de pasos. Todo parecía igualmente importante.</td>
+          <td><span class="tag-exec">Ejecución</span></td>
+        </tr>
+        <tr>
+          <td><strong>4</strong></td>
+          <td><strong>Ejecutar la acción</strong></td>
+          <td>Inserté el ticket, la pantalla mostró el monto. Pagué con tarjeta.</td>
+          <td>Después de pagar, la pantalla volvió al menú inicial sin ningún mensaje de confirmación claro.</td>
+          <td><span class="tag-exec">Ejecución</span></td>
+        </tr>
+        <tr>
+          <td><strong>5</strong></td>
+          <td><strong>Percibir el estado del sistema</strong></td>
+          <td>No vi ningún ticket de salida ni mensaje de "pago exitoso" grande y visible.</td>
+          <td>El feedback fue mínimo. Solo apareció un texto pequeño en la parte de abajo de la pantalla.</td>
+          <td><span class="tag-eval">Evaluación</span></td>
+        </tr>
+        <tr>
+          <td><strong>6</strong></td>
+          <td><strong>Interpretar el estado</strong></td>
+          <td>Asumí que el pago había sido exitoso porque la pantalla volvió al inicio.</td>
+          <td>Mi interpretación fue incorrecta. Faltaba retirar un comprobante físico de la máquina.</td>
+          <td><span class="tag-eval">Evaluación</span></td>
+        </tr>
+        <tr>
+          <td><strong>7</strong></td>
+          <td><strong>Evaluar el resultado</strong></td>
+          <td>Me dirigí al carro. La barrera no abrió. Tuve que regresar y retirar el comprobante.</td>
+          <td>El sistema no comunicó que había un paso adicional obligatorio antes de salir.</td>
+          <td><span class="tag-fail">Falla crítica</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="highlight" style="margin-top:2rem;">
+    <strong>Conclusión:</strong> La mayor falla estuvo en las etapas de evaluación, específicamente
+    en la falta de retroalimentación visible después del pago. El sistema asumió que el usuario sabía
+    que había que retirar un comprobante, pero nunca lo comunicó de forma clara. Si hubiera habido un
+    mensaje grande que dijera "¡Listo! Retire su comprobante para salir", el problema no habría ocurrido.
+    Esto muestra que incluso una máquina que funciona correctamente puede fallar en HCI si no comunica
+    bien su estado.
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     4. INTERFACES EXTRAÑAS
+══════════════════════════════════ -->
+<div class="section-alt" id="interfaces">
+<section class="section" style="padding-top:0;padding-bottom:0;">
+  <span class="section-tag">Semana 4</span>
+  <h2 class="section-title">Interfaces Extrañas</h2>
+  <p class="section-subtitle">
+    La tarea fue identificar una app o página confusa en el uso diario, explicar por qué lo es y
+    sugerir mejoras concretas. Elegí Canvas desde el celular.
+  </p>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;" class="two-col">
+    <div>
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;margin-bottom:1rem;">Canvas en móvil</h3>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        <strong>Contexto:</strong> Quería revisar las instrucciones de una tarea que el catedrático había subido
+        antes del inicio de clase. Abrí la app de Canvas en el celular esperando ver la descripción directamente.
+      </p>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        <strong>¿Qué quería hacer?</strong> Ver los detalles de una tarea específica, incluyendo la rúbrica y los
+        archivos adjuntos, en menos de un minuto.
+      </p>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        <strong>¿Por qué fue confusa?</strong> La información de la tarea estaba distribuida en varias pestañas
+        dentro de la propia tarea. La descripción estaba en una sección, los adjuntos en otra, y la rúbrica
+        en una tercera que a veces no cargaba. Además, el menú de navegación en la parte inferior tenía íconos
+        sin texto que no siempre eran intuitivos.
+      </p>
+
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin:1.25rem 0 .75rem;">Heurísticas relacionadas</h3>
+      <div class="heuristic-list">
+        <span class="h-badge fail">Consistencia y estándares</span>
+        <span class="h-badge fail">Visibilidad del estado del sistema</span>
+        <span class="h-badge fail">Diseño minimalista</span>
+        <span class="h-badge fail">Reconocimiento vs. recuerdo</span>
+        <span class="h-badge pass">Control del usuario ✓</span>
+      </div>
+    </div>
+
+    <div>
+      <div class="screenshot-frame">
+        <div class="screenshot-bar">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+          <span style="font-size:.72rem;color:var(--ink-muted);margin-left:.5rem;">Canvas Student — app móvil</span>
+        </div>
+        <img src="assets/interfaces/canvas-movil.svg" alt="Canvas en móvil - interfaz confusa" style="width:100%;border-radius:12px;"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="highlight" style="margin:2rem 0;">
+    Me pareció confusa porque la información importante no estaba donde yo esperaba encontrarla. Tuve
+    que entrar a varias secciones antes de llegar a lo que necesitaba, y eso hizo que la tarea se sintiera
+    más larga de lo necesario. Hay opciones en la barra de navegación que todavía no sé exactamente para
+    qué sirven.
+  </div>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;margin-bottom:1rem;">Consejos concretos para mejorarla</h3>
+  <div class="cards-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr));">
+    <div class="card"><div class="card-body">
+      <div class="badge">1. Consolidar información</div>
+      <p>Mostrar descripción, archivos y rúbrica en una sola pantalla con scroll, sin pestañas separadas. Menos pasos, más claridad.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge badge-gold">2. Etiquetar los íconos</div>
+      <p>Los íconos de la barra inferior deberían tener texto debajo, especialmente para usuarios nuevos. "Tablero", "Calendario", "Tareas", etc.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge" style="background:#2980b9;">3. Indicador de carga visible</div>
+      <p>Cuando un adjunto o la rúbrica están cargando, debería haber un spinner o mensaje claro. Ahora simplemente aparece vacío.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge" style="background:#27ae60;">4. Búsqueda accesible</div>
+      <p>Tener una barra de búsqueda visible para encontrar tareas por nombre, sin tener que navegar por curso → módulo → tarea.</p>
+    </div></div>
+  </div>
+</section>
+</div>
+
+<!-- ══════════════════════════════════
+     5. REGISTRO DE 3 INTERACCIONES
+══════════════════════════════════ -->
+<section id="interacciones" class="section">
+  <span class="section-tag">Semana 5</span>
+  <h2 class="section-title">Registro de 3 Interacciones Reales</h2>
+  <p class="section-subtitle">
+    Registré tres interacciones cotidianas respondiendo 5 preguntas por cada una para analizar qué
+    funcionó, qué no, y cómo se podría mejorar.
+  </p>
+
+  <!-- Interacción 1 -->
+  <div class="interaction-card">
+    <div class="interaction-header">
+      <div class="interaction-num">1</div>
+      <div>
+        <h3>Dispensador de agua en la universidad</h3>
+        <span style="font-size:.8rem;opacity:.8;">Objeto físico — Campus UVG</span>
+      </div>
+    </div>
+    <div class="interaction-body">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;" class="two-col">
+        <div>
+          <div class="qa-item">
+            <div class="qa-question">1. ¿Qué quería hacer el usuario?</div>
+            <div class="qa-answer">Llenar una botella de agua reutilizable antes de entrar a clase.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">2. ¿Qué pasos tuvo que seguir?</div>
+            <div class="qa-answer">Acercar la botella, buscar el botón o sensor, activarlo, esperar, retirar la botella. En este caso el dispensador tenía dos opciones: botón físico para vasos pequeños y sensor para botellas. El problema fue identificar cuál usar.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">3. ¿Fue intuitivo o confuso?</div>
+            <div class="qa-answer">Medianamente confuso. El sensor no tenía señal luminosa cuando estaba activo, así que no quedaba claro si la botella estaba bien posicionada o no. Terminé presionando el botón físico por default.</div>
+          </div>
+        </div>
+        <div>
+          <div class="qa-item">
+            <div class="qa-question">4. ¿Qué señales ayudaban?</div>
+            <div class="qa-answer">Un pequeño ícono de botella impreso en el panel indicaba dónde poner el recipiente. El sonido del agua al salir era la única confirmación de que funcionaba.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">5. ¿Cómo podrían mejorar esa interacción?</div>
+            <div class="qa-answer">Una luz LED que se active cuando el sensor detecta la botella, y que cambie de color al completar el llenado. También sería útil una pantalla pequeña que muestre cuántos litros se han dispensado.</div>
+          </div>
+          <div class="img-placeholder" style="min-height:130px;margin-top:1rem;">
+            <strong>Foto opcional</strong>
+            📷 Insertar foto del dispensador de agua
+          </div>
+        </div>
+      </div>
+      <div class="highlight">
+        Lo que más me llamó la atención fue que el sensor estaba ahí para hacer la interacción más
+        fácil, pero en la práctica lo ignoraba porque no daba retroalimentación visual. El sonido del
+        agua no es suficiente si uno no sabe si el sensor activó o no.
+      </div>
+    </div>
+  </div>
+
+  <!-- Interacción 2 -->
+  <div class="interaction-card">
+    <div class="interaction-header" style="background:#2c5282;">
+      <div class="interaction-num">2</div>
+      <div>
+        <h3>Máquina POS al pagar en tienda</h3>
+        <span style="font-size:.8rem;opacity:.8;">Dispositivo físico — Tienda de conveniencia</span>
+      </div>
+    </div>
+    <div class="interaction-body">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;" class="two-col">
+        <div>
+          <div class="qa-item">
+            <div class="qa-question">1. ¿Qué quería hacer el usuario?</div>
+            <div class="qa-answer">Pagar con tarjeta de débito de forma rápida.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">2. ¿Qué pasos tuvo que seguir?</div>
+            <div class="qa-answer">Insertar la tarjeta, esperar pantalla de confirmación del monto, presionar OK, ingresar PIN, esperar aprobación, retirar tarjeta. El paso confuso fue cuándo exactamente insertar la tarjeta: ¿antes o después de que el cajero confirme el total?</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">3. ¿Fue intuitivo o confuso?</div>
+            <div class="qa-answer">Confuso en el timing. La máquina no indicaba cuándo estaba lista para recibir la tarjeta, y el cajero a veces pedía que esperara. No había una señal visual que diferenciara "listo para insertar" de "todavía procesando".</div>
+          </div>
+        </div>
+        <div>
+          <div class="qa-item">
+            <div class="qa-question">4. ¿Qué señales ayudaban?</div>
+            <div class="qa-answer">El pitido al confirmar el PIN era útil. La pantalla mostraba el monto en letra grande, lo cual facilitó verificarlo antes de confirmar.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">5. ¿Cómo podrían mejorar esa interacción?</div>
+            <div class="qa-answer">Una luz verde que se encienda cuando la máquina está lista para la tarjeta, y que la pantalla muestre claramente "Inserte tarjeta" en lugar de solo mostrar el logo del banco.</div>
+          </div>
+          <div class="img-placeholder" style="min-height:130px;margin-top:1rem;">
+            <strong>Foto opcional</strong>
+            📷 Insertar foto del terminal POS
+          </div>
+        </div>
+      </div>
+      <div class="highlight">
+        El problema principal no era el diseño físico sino la falta de sincronización entre la
+        pantalla y el momento en que uno puede actuar. Una buena interfaz debería eliminar esa duda
+        de "¿ya puedo o no?".
+      </div>
+    </div>
+  </div>
+
+  <!-- Interacción 3 -->
+  <div class="interaction-card">
+    <div class="interaction-header" style="background:#7d3c98;">
+      <div class="interaction-num">3</div>
+      <div>
+        <h3>Revisar entrega pendiente en Canvas</h3>
+        <span style="font-size:.8rem;opacity:.8;">Aplicación móvil — Plataforma universitaria</span>
+      </div>
+    </div>
+    <div class="interaction-body">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;" class="two-col">
+        <div>
+          <div class="qa-item">
+            <div class="qa-question">1. ¿Qué quería hacer el usuario?</div>
+            <div class="qa-answer">Verificar si una tarea ya había sido calificada y ver el comentario del catedrático.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">2. ¿Qué pasos tuvo que seguir?</div>
+            <div class="qa-answer">Abrir Canvas, ir al curso, buscar la tarea en la lista de módulos, entrar a la tarea, ir a la pestaña de "Entrega y comentarios", revisar si había calificación. Cinco pasos mínimo para ver un número y un comentario.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">3. ¿Fue intuitivo o confuso?</div>
+            <div class="qa-answer">Medianamente confuso. La notificación que llegó al celular no me llevó directamente al comentario del catedrático, sino a la pantalla general del curso. Tuve que navegar manualmente desde ahí.</div>
+          </div>
+        </div>
+        <div>
+          <div class="qa-item">
+            <div class="qa-question">4. ¿Qué señales ayudaban?</div>
+            <div class="qa-answer">La notificación push fue la señal principal. Dentro de la app, el badge rojo con número en el ícono de notificaciones ayudó a saber que había algo nuevo. El color verde en la calificación también fue claro.</div>
+          </div>
+          <div class="qa-item">
+            <div class="qa-question">5. ¿Cómo podrían mejorar esa interacción?</div>
+            <div class="qa-answer">La notificación debería llevar directamente al comentario, no al curso. También sería útil una vista de "Mis calificaciones recientes" accesible desde la pantalla principal sin tener que entrar curso por curso.</div>
+          </div>
+          <div class="img-placeholder" style="min-height:130px;margin-top:1rem;">
+            <strong>Foto opcional</strong>
+            📷 Insertar captura de la notificación o pantalla de Canvas
+          </div>
+        </div>
+      </div>
+      <div class="highlight">
+        Canvas sí manda notificaciones, lo cual es positivo. Pero el problema es que la notificación
+        no completa el recorrido: te avisa que algo pasó, pero no te lleva directamente a ese algo.
+        Eso hace que el flujo se sienta a medias.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     6. COLORES
+══════════════════════════════════ -->
+<div class="section-alt" id="colores">
+<section class="section" style="padding-top:0;padding-bottom:0;">
+  <span class="section-tag">Semana 6</span>
+  <h2 class="section-title">Análisis de Colores en Logos</h2>
+  <p class="section-subtitle">
+    Durante la semana me fijé en logos que aparecieron en redes sociales y en la calle. Elegí tres
+    marcas que me llamaron la atención y analicé qué comunican con sus colores.
+  </p>
+
+  <div class="cards-grid">
+
+    <!-- McDonald's -->
+    <div class="color-card">
+      <div class="color-header" style="background:linear-gradient(135deg,#DA291C,#FFC72C);">
+        <div class="color-swatches">
+          <div class="swatch" style="background:#DA291C;" title="Rojo"></div>
+          <div class="swatch" style="background:#FFC72C;" title="Amarillo dorado"></div>
+          <div class="swatch" style="background:#27251F;" title="Negro"></div>
+        </div>
+      </div>
+      <div class="color-body">
+        <span class="card-label">Logo 1</span>
+        <h3 class="card-title">McDonald's</h3>
+        <p><strong>Colores principales:</strong> Rojo, amarillo dorado y negro.</p>
+        <p>
+          El rojo es un color que estudios de psicología del color asocian con urgencia, hambre y energía.
+          El amarillo transmite alegría y accesibilidad. Juntos crean una combinación que es difícil de
+          ignorar, especialmente en una valla publicitaria.
+        </p>
+        <p>
+          <strong>Público objetivo:</strong> Muy amplio, pero especialmente familias y jóvenes que buscan
+          rapidez y precio accesible.
+        </p>
+        <div class="highlight">
+          En mi opinión, McDonald's usa el rojo y el amarillo porque son colores que literalmente
+          activan el apetito y llaman la atención desde lejos. No es casualidad que la mayoría de cadenas
+          de comida rápida usen esa misma combinación. Es una decisión muy calculada.
+        </div>
+        <img src="assets/colores/mcdonalds.svg" alt="Logo McDonald's - análisis de color" style="width:100%;border-radius:8px;"/>
+      </div>
+    </div>
+
+    <!-- Spotify -->
+    <div class="color-card">
+      <div class="color-header" style="background:linear-gradient(135deg,#191414,#1DB954);">
+        <div class="color-swatches">
+          <div class="swatch" style="background:#1DB954;" title="Verde Spotify"></div>
+          <div class="swatch" style="background:#191414;" title="Negro"></div>
+          <div class="swatch" style="background:#FFFFFF;" title="Blanco"></div>
+        </div>
+      </div>
+      <div class="color-body">
+        <span class="card-label">Logo 2</span>
+        <h3 class="card-title">Spotify</h3>
+        <p><strong>Colores principales:</strong> Verde brillante (#1DB954) y negro casi puro.</p>
+        <p>
+          El verde de Spotify es muy específico: no es el verde natural de la naturaleza ni el verde
+          institucional. Es un verde brillante, casi eléctrico, que se asocia con modernidad y energía
+          digital. El fondo negro lo hace destacar todavía más.
+        </p>
+        <p>
+          <strong>Público objetivo:</strong> Principalmente jóvenes y adultos jóvenes interesados en
+          música, podcasts y cultura digital.
+        </p>
+        <div class="highlight">
+          En mi opinión, el verde de Spotify ayuda a que la marca se sienta moderna y diferente a otras
+          apps. No se ve tan formal, sino más juvenil y relacionada con entretenimiento. Además, el verde
+          en tecnología muchas veces se asocia con algo activo o "en funcionamiento", lo cual tiene sentido
+          para una app de streaming que siempre está "reproduciendo algo".
+        </div>
+        <img src="assets/colores/spotify.svg" alt="Logo Spotify - análisis de color" style="width:100%;border-radius:8px;"/>
+      </div>
+    </div>
+
+    <!-- Pepsi -->
+    <div class="color-card">
+      <div class="color-header" style="background:linear-gradient(135deg,#004B93,#ED1C24,#F5F5F5);">
+        <div class="color-swatches">
+          <div class="swatch" style="background:#004B93;" title="Azul"></div>
+          <div class="swatch" style="background:#ED1C24;" title="Rojo"></div>
+          <div class="swatch" style="background:#F5F5F5;" title="Blanco"></div>
+        </div>
+      </div>
+      <div class="color-body">
+        <span class="card-label">Logo 3</span>
+        <h3 class="card-title">Pepsi</h3>
+        <p><strong>Colores principales:</strong> Azul, rojo y blanco.</p>
+        <p>
+          El azul dominante de Pepsi transmite confianza y frescura. Es interesante que Pepsi usa azul
+          donde su principal competidor (Coca-Cola) usa rojo. Parece una decisión de diferenciación:
+          si ellos son el rojo apasionado, nosotros somos el azul fresco y moderno.
+        </p>
+        <p>
+          <strong>Público objetivo:</strong> Similar a Coca-Cola, pero con una imagen ligeramente
+          más joven y orientada a lo digital y deportivo.
+        </p>
+        <div class="highlight">
+          Lo que más me llama la atención de Pepsi es que su logo ha cambiado varias veces pero siempre
+          mantiene el azul como color principal. Creo que eso es porque el azul ya es parte de su identidad
+          diferenciadora frente a Coca-Cola. Si cambiaran el azul, perderían eso que los hace
+          reconocibles a primera vista.
+        </div>
+        <img src="assets/colores/pepsi.svg" alt="Logo Pepsi - análisis de color" style="width:100%;border-radius:8px;"/>
+      </div>
+    </div>
+
+  </div>
+</section>
+</div>
+
+<!-- ══════════════════════════════════
+     7. DISEÑOS DE OBJETOS
+══════════════════════════════════ -->
+<section id="objetos" class="section">
+  <span class="section-tag">Semana 7</span>
+  <h2 class="section-title">Diseños de Objetos</h2>
+  <p class="section-subtitle">
+    La tarea fue encontrar un objeto cotidiano que parezca extraño o cuyo uso no sea obvio a primera
+    vista. Elegí el grifo de sensor automático en un baño público.
+  </p>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;margin-bottom:2rem;" class="two-col">
+    <div>
+      <img src="assets/objetos/grifo-sensor.svg" alt="Grifo automático con sensor - objeto de diseño confuso" style="width:100%;border-radius:12px;"/>
+    </div>
+    <div>
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.2rem;margin-bottom:1rem;">
+        Grifo automático de sensor en baño público
+      </h3>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        <strong>¿Dónde lo encontré?</strong> En el baño de un centro comercial, instalado recientemente
+        como parte de una remodelación.
+      </p>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        <strong>¿Por qué parece extraño?</strong> El grifo no tiene manijas ni perillas. Es solo un
+        tubo de metal con un pequeño punto negro en la parte inferior (el sensor). No hay ningún texto
+        que diga "ponga las manos aquí" ni una flecha. Solo el punto negro.
+      </p>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        <strong>¿Qué pistas visuales tiene?</strong> El sensor tiene una pequeña luz roja intermitente
+        que podría indicar que está activo, pero también podría interpretarse como un error. No hay
+        más pistas visuales que el mismo tubo.
+      </p>
+      <p style="color:var(--ink-soft);margin-bottom:.75rem;">
+        <strong>¿Cómo creo que funciona?</strong> Tiene un sensor infrarrojo que detecta calor o
+        movimiento de las manos. Cuando las manos están a la distancia correcta, activa el agua
+        automáticamente por unos segundos.
+      </p>
+    </div>
+  </div>
+
+  <div class="cards-grid" style="grid-template-columns:repeat(auto-fill,minmax(280px,1fr));margin-bottom:2rem;">
+    <div class="card">
+      <div class="card-body">
+        <div class="badge" style="background:#c0392b;">Problema de diseño</div>
+        <h3 class="card-title" style="font-size:1rem;">Sin affordance claro</h3>
+        <p>
+          La palabra "affordance" en diseño se refiere a la capacidad de un objeto de comunicar su
+          función. Este grifo falla en eso: no hay ninguna señal visual que indique "pon las manos aquí".
+          El sensor podría ser un altavoz, un lector de código QR o simplemente un adorno.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <div class="badge" style="background:#e67e22;">Sin retroalimentación</div>
+        <h3 class="card-title" style="font-size:1rem;">No confirma que funcionó</h3>
+        <p>
+          Cuando el agua sale, uno asume que el sensor funcionó. Pero si las manos no están bien
+          posicionadas, simplemente no pasa nada. No hay sonido, luz o mensaje que diga "no te detecto".
+          Uno solo puede probar mover las manos.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <div class="badge" style="background:#27ae60;">Propuesta de mejora</div>
+        <h3 class="card-title" style="font-size:1rem;">Señalización simple</h3>
+        <p>
+          Bastaría con un pequeño adhesivo que muestre el ícono de unas manos con una flecha hacia
+          el sensor. Una luz que cambie de rojo a verde cuando detecta las manos también funcionaría
+          perfectamente y no requeriría hardware adicional.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="highlight">
+    Me pareció extraño porque el objeto sí tenía una función cotidiana, pero no daba suficientes
+    pistas para saber cómo usarlo a la primera. Tuve que poner las manos en varios ángulos distintos
+    antes de entender exactamente a qué distancia activaba el sensor. Es un buen ejemplo de que la
+    tecnología sola no mejora la experiencia; el diseño también tiene que comunicar.
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     8. DISEÑO DE PÁGINA DE COMIDA CON IA
+══════════════════════════════════ -->
+<div class="section-alt" id="ai-design">
+<section class="section" style="padding-top:0;padding-bottom:0;">
+  <span class="section-tag">Semana 8</span>
+  <h2 class="section-title">Diseño de Página de Comida con IA</h2>
+  <p class="section-subtitle">
+    Le pedí a una IA que diseñara una página web para un restaurante de delivery. Acá está el prompt
+    que usé, el resultado que generó, y mi análisis de qué tan bien cumple con HCI.
+  </p>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:.75rem;">Prompt utilizado</h3>
+  <div class="prompt-box">
+Diseña una página web para un restaurante de delivery que incluya una barra de navegación con logo y
+opciones de inicio, menú, pedidos y contacto; una sección hero con llamado a la acción; un menú con
+categorías de hamburguesas, pizzas, bebidas y postres; tarjetas de productos con nombre, precio e imagen;
+una sección de pasos para explicar cómo funciona el delivery; y un footer con contacto y redes sociales.
+El diseño debe ser moderno, responsive y fácil de usar.
+  </div>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin:2rem 0 .75rem;">Capturas del resultado generado</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-bottom:2rem;" class="two-col">
+    <div class="screenshot-frame">
+      <div class="screenshot-bar">
+        <div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div>
+        <span style="font-size:.72rem;color:var(--ink-muted);margin-left:.5rem;">Diseño generado por IA — Vista general</span>
+      </div>
+      <div class="img-placeholder" style="min-height:220px;">
+        <svg width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+          <rect x="3" y="3" width="18" height="18" rx="2"/>
+          <path d="M3 9h18M9 3v6"/>
+        </svg>
+        <strong>Captura requerida</strong>
+        📷 Insertar primera captura del diseño generado por la IA (hero + navbar)
+      </div>
+    </div>
+    <div class="screenshot-frame">
+      <div class="screenshot-bar">
+        <div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div>
+        <span style="font-size:.72rem;color:var(--ink-muted);margin-left:.5rem;">Diseño generado por IA — Análisis heurístico</span>
+      </div>
+      <img src="assets/ai-design/analisis-heuristico.svg" alt="Análisis heurístico del diseño generado por IA" style="width:100%;border-radius:8px;"/>
+    </div>
+  </div>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:1rem;">Análisis del diseño</h3>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Criterio</th>
+          <th>¿Cumple?</th>
+          <th>Observación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Visibilidad del estado del sistema</strong></td>
+          <td><span class="tag-eval">Parcial</span></td>
+          <td>El diseño no incluía estados de carga ni mensajes de confirmación de pedido. El botón CTA existe pero no comunica qué pasa después de presionarlo.</td>
+        </tr>
+        <tr>
+          <td><strong>Consistencia de navegación</strong></td>
+          <td><span class="tag-exec">Sí</span></td>
+          <td>El navbar tenía los 4 elementos pedidos (inicio, menú, pedidos, contacto) y se mantenía visible en todas las secciones.</td>
+        </tr>
+        <tr>
+          <td><strong>Teoría del color</strong></td>
+          <td><span class="tag-eval">Parcial</span></td>
+          <td>Los colores usados eran cálidos (naranja y rojo), coherentes con comida. Sin embargo, el contraste entre texto y fondo en algunas tarjetas era insuficiente.</td>
+        </tr>
+        <tr>
+          <td><strong>Llamado a la acción visible</strong></td>
+          <td><span class="tag-exec">Sí</span></td>
+          <td>El botón de "Pedir ahora" en el hero era prominente y de color contrastante. Estaba bien ubicado.</td>
+        </tr>
+        <tr>
+          <td><strong>Tarjetas de productos</strong></td>
+          <td><span class="tag-exec">Sí</span></td>
+          <td>Las tarjetas mostraban nombre, precio e imagen como se pidió. El precio estaba destacado, lo cual ayuda a la decisión de compra.</td>
+        </tr>
+        <tr>
+          <td><strong>Accesibilidad y contraste</strong></td>
+          <td><span class="tag-fail">No</span></td>
+          <td>Algunos textos sobre fondo de imagen no tenían suficiente contraste para ser legibles. No se mencionó el uso de texto alternativo para imágenes.</td>
+        </tr>
+        <tr>
+          <td><strong>Responsive / adaptación móvil</strong></td>
+          <td><span class="tag-eval">Parcial</span></td>
+          <td>La IA indicó que el diseño era responsive, pero en las capturas no fue posible verificar el comportamiento en pantallas pequeñas.</td>
+        </tr>
+        <tr>
+          <td><strong>Sección de cómo funciona el delivery</strong></td>
+          <td><span class="tag-exec">Sí</span></td>
+          <td>Se incluyó una sección de 3 pasos con íconos y texto claro. Visualmente era fácil de seguir.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="highlight" style="margin-top:1.5rem;">
+    El diseño que generó la IA sí cumple con la estructura general que se pidió, pero siento que
+    todavía necesita ajustes para verse como una página realmente lista para usuarios. Por ejemplo,
+    sería importante revisar el contraste de texto, los tamaños de fuente en móvil, y que los botones
+    principales no compitan visualmente entre sí. La IA es un buen punto de partida, pero el refinamiento
+    final siempre requiere alguien que piense en el usuario real.
+  </div>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin:2rem 0 .75rem;">¿Qué mejoraría del diseño?</h3>
+  <div class="cards-grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr));">
+    <div class="card"><div class="card-body">
+      <div class="badge">Contraste de texto</div>
+      <p>Asegurar que todo texto sobre imagen o color tenga un overlay oscuro o claro que garantice legibilidad. Mínimo ratio 4.5:1 según WCAG.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge badge-gold">Estados de botones</div>
+      <p>Los botones deberían tener un estado hover visible y un estado "procesando" cuando se confirma un pedido, para que el usuario sepa que su acción fue registrada.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge" style="background:#2980b9;">Jerarquía tipográfica</div>
+      <p>Revisar que los títulos, subtítulos y textos de cuerpo tengan tamaños claramente diferenciados. En algunas secciones todo parecía del mismo peso visual.</p>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="badge" style="background:#8e44ad;">Filtros en el menú</div>
+      <p>Agregar la posibilidad de filtrar por categoría directamente en la sección del menú, sin tener que hacer scroll para encontrar lo que uno busca.</p>
+    </div></div>
+  </div>
+</section>
+</div>
+
+<!-- ══════════════════════════════════
+     CONCLUSIÓN
+══════════════════════════════════ -->
+<div id="conclusion">
+  <span class="section-tag" style="background:rgba(255,255,255,.15);color:rgba(255,255,255,.8);">Reflexión final</span>
+  <h2 class="section-title">Conclusión General</h2>
+  <p class="section-subtitle">
+    Después de hacer este diario me di cuenta de que HCI no solo aplica a aplicaciones o páginas web,
+    sino también a objetos comunes que usamos todos los días. Muchas veces uno culpa al usuario cuando
+    algo no se entiende, pero en realidad el diseño también tiene mucha responsabilidad en eso.
+  </p>
+
+  <div class="conclusion-points">
+    <div class="conclusion-point">
+      <div class="icon">👁️</div>
+      <h4>HCI está en todas partes</h4>
+      <p>Un grifo, una máquina de parqueo, un dispensador de agua: todos son sistemas que requieren interacción, y todos pueden diseñarse mejor o peor.</p>
+    </div>
+    <div class="conclusion-point">
+      <div class="icon">⚖️</div>
+      <h4>Bonito ≠ usable</h4>
+      <p>Una interfaz puede ser visualmente atractiva y seguir siendo frustrante. El diseño visual y la experiencia de usuario tienen que ir juntos.</p>
+    </div>
+    <div class="conclusion-point">
+      <div class="icon">🎨</div>
+      <h4>Los colores comunican</h4>
+      <p>Los colores no son solo estéticos; transmiten jerarquía, urgencia, confianza o acción. Elegirlos mal puede confundir al usuario aunque el resto esté bien.</p>
+    </div>
+    <div class="conclusion-point">
+      <div class="icon">💬</div>
+      <h4>La retroalimentación es clave</h4>
+      <p>El sistema siempre debe decirle al usuario qué pasó después de una acción. Sin esa señal, el usuario asume cosas que pueden ser incorrectas.</p>
+    </div>
+  </div>
+</div>
+
+</main><!-- /main -->
+
+<!-- ══════════════════════════════════
+     FOOTER
+══════════════════════════════════ -->
+<footer>
+  <p>
+    <strong>Samuel Antonio Robledo López</strong> · Carné 241282<br />
+    Interacción Humano Computador · Universidad del Valle de Guatemala · 2025
+  </p>
+</footer>
+
+<!-- Back to top -->
+<button id="back-top" aria-label="Volver arriba">
+  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+    <path d="M18 15l-6-6-6 6"/>
+  </svg>
+</button>
+
+<style>
+  @media (max-width: 768px) {
+    .two-col { grid-template-columns: 1fr !important; }
+  }
+</style>
+
+<script src="script.js"></script>
+</body>
+</html>

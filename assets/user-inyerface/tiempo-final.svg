@@ -1,0 +1,40 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <!-- Browser frame -->
+  <rect width="400" height="300" fill="#1e1e2e" rx="8"/>
+  <!-- Browser bar -->
+  <rect x="0" y="0" width="400" height="36" fill="#2a2a3e" rx="8"/>
+  <rect x="0" y="20" width="400" height="16" fill="#2a2a3e"/>
+  <circle cx="18" cy="18" r="5" fill="#ff5f57"/>
+  <circle cx="34" cy="18" r="5" fill="#febc2e"/>
+  <circle cx="50" cy="18" r="5" fill="#28c840"/>
+  <rect x="80" y="10" width="240" height="16" rx="8" fill="#3a3a4e"/>
+  <text x="200" y="22" fill="#888" font-size="8" text-anchor="middle">userinyerface.com</text>
+
+  <!-- Page background -->
+  <rect x="0" y="36" width="400" height="264" fill="#f0e6d3"/>
+
+  <!-- Confetti/completion effect -->
+  <rect x="60" y="50" width="10" height="10" rx="2" fill="#ff6b6b" transform="rotate(15 65 55)"/>
+  <rect x="320" y="55" width="8" height="8" rx="2" fill="#4ecdc4" transform="rotate(-20 324 59)"/>
+  <rect x="180" y="45" width="9" height="9" rx="2" fill="#ffe66d" transform="rotate(30 184 49)"/>
+  <rect x="280" y="48" width="7" height="7" rx="2" fill="#a8e6cf" transform="rotate(-10 283 51)"/>
+  <rect x="100" y="60" width="8" height="8" rx="2" fill="#ff8b94" transform="rotate(45 104 64)"/>
+  <rect x="340" y="70" width="9" height="9" rx="2" fill="#ffd93d" transform="rotate(20 344 74)"/>
+
+  <!-- Success checkmark circle -->
+  <circle cx="200" cy="120" r="40" fill="#2d5a3d" opacity="0.15"/>
+  <circle cx="200" cy="120" r="32" fill="white" stroke="#2d5a3d" stroke-width="3"/>
+  <text x="200" y="130" fill="#2d5a3d" font-size="28" text-anchor="middle">✓</text>
+
+  <!-- Completion text -->
+  <text x="200" y="178" fill="#1a1a1a" font-size="16" text-anchor="middle" font-weight="bold">¡Formulario completado!</text>
+
+  <!-- Timer display -->
+  <rect x="120" y="192" width="160" height="50" rx="10" fill="#1a1a1a"/>
+  <text x="200" y="212" fill="#888" font-size="9" text-anchor="middle" letter-spacing="2">TIEMPO TOTAL</text>
+  <text x="200" y="234" fill="#00e676" font-size="22" text-anchor="middle" font-weight="bold" font-family="monospace">08:47</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="262" fill="#666" font-size="9" text-anchor="middle">mm:ss — intentional bad UX</text>
+  <text x="200" y="276" fill="#c97d2e" font-size="8" text-anchor="middle" font-style="italic">⚠ colocar tu tiempo real de la captura</text>
+</svg>

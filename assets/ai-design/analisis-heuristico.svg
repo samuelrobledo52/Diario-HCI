@@ -1,0 +1,68 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="400" height="300" fill="#f5f0eb"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="400" height="40" fill="#1a0a00"/>
+  <text x="200" y="25" fill="white" font-size="11" text-anchor="middle" font-weight="bold">Análisis HCI — Diseño generado por IA</text>
+
+  <!-- Heuristic checks -->
+  <!-- Check 1 -->
+  <rect x="15" y="50" width="175" height="50" rx="6" fill="white" stroke="#e0d8d0" stroke-width="1"/>
+  <circle cx="35" cy="75" r="12" fill="#27ae60"/>
+  <text x="35" y="80" fill="white" font-size="10" text-anchor="middle" font-weight="bold">✓</text>
+  <text x="100" y="68" fill="#333" font-size="8" text-anchor="middle" font-weight="bold">Navegación clara</text>
+  <text x="100" y="80" fill="#666" font-size="7" text-anchor="middle">Navbar con 4 opciones</text>
+  <text x="100" y="90" fill="#666" font-size="7" text-anchor="middle">bien etiquetadas</text>
+
+  <!-- Check 2 -->
+  <rect x="205" y="50" width="175" height="50" rx="6" fill="white" stroke="#e0d8d0" stroke-width="1"/>
+  <circle cx="225" cy="75" r="12" fill="#27ae60"/>
+  <text x="225" y="80" fill="white" font-size="10" text-anchor="middle" font-weight="bold">✓</text>
+  <text x="292" y="68" fill="#333" font-size="8" text-anchor="middle" font-weight="bold">CTA visible</text>
+  <text x="292" y="80" fill="#666" font-size="7" text-anchor="middle">Botón "Pedir ya" en</text>
+  <text x="292" y="90" fill="#666" font-size="7" text-anchor="middle">color contrastante</text>
+
+  <!-- Check 3 -->
+  <rect x="15" y="110" width="175" height="50" rx="6" fill="white" stroke="#e0d8d0" stroke-width="1"/>
+  <circle cx="35" cy="135" r="12" fill="#f39c12"/>
+  <text x="35" y="140" fill="white" font-size="10" text-anchor="middle" font-weight="bold">~</text>
+  <text x="100" y="128" fill="#333" font-size="8" text-anchor="middle" font-weight="bold">Visibilidad estado</text>
+  <text x="100" y="140" fill="#666" font-size="7" text-anchor="middle">Sin feedback al hacer</text>
+  <text x="100" y="150" fill="#666" font-size="7" text-anchor="middle">clic en "Agregar"</text>
+
+  <!-- Check 4 -->
+  <rect x="205" y="110" width="175" height="50" rx="6" fill="white" stroke="#e0d8d0" stroke-width="1"/>
+  <circle cx="225" cy="135" r="12" fill="#f39c12"/>
+  <text x="225" y="140" fill="white" font-size="10" text-anchor="middle" font-weight="bold">~</text>
+  <text x="292" y="128" fill="#333" font-size="8" text-anchor="middle" font-weight="bold">Responsive</text>
+  <text x="292" y="140" fill="#666" font-size="7" text-anchor="middle">Declarado pero no</text>
+  <text x="292" y="150" fill="#666" font-size="7" text-anchor="middle">verificado en móvil</text>
+
+  <!-- Check 5 -->
+  <rect x="15" y="170" width="175" height="50" rx="6" fill="white" stroke="#e0d8d0" stroke-width="1"/>
+  <circle cx="35" cy="195" r="12" fill="#e53e3e"/>
+  <text x="35" y="200" fill="white" font-size="10" text-anchor="middle" font-weight="bold">✗</text>
+  <text x="100" y="188" fill="#333" font-size="8" text-anchor="middle" font-weight="bold">Contraste texto</text>
+  <text x="100" y="200" fill="#666" font-size="7" text-anchor="middle">Texto oscuro sobre</text>
+  <text x="100" y="210" fill="#666" font-size="7" text-anchor="middle">imagen sin overlay</text>
+
+  <!-- Check 6 -->
+  <rect x="205" y="170" width="175" height="50" rx="6" fill="white" stroke="#e0d8d0" stroke-width="1"/>
+  <circle cx="225" cy="195" r="12" fill="#e53e3e"/>
+  <text x="225" y="200" fill="white" font-size="10" text-anchor="middle" font-weight="bold">✗</text>
+  <text x="292" y="188" fill="#333" font-size="8" text-anchor="middle" font-weight="bold">Accesibilidad</text>
+  <text x="292" y="200" fill="#666" font-size="7" text-anchor="middle">Sin alt text ni</text>
+  <text x="292" y="210" fill="#666" font-size="7" text-anchor="middle">ARIA labels</text>
+
+  <!-- Legend -->
+  <rect x="15" y="232" width="370" height="40" rx="6" fill="white" stroke="#e0d8d0" stroke-width="1"/>
+  <circle cx="50" cy="252" r="7" fill="#27ae60"/>
+  <text x="60" y="256" fill="#333" font-size="8">Cumple</text>
+  <circle cx="130" cy="252" r="7" fill="#f39c12"/>
+  <text x="140" y="256" fill="#333" font-size="8">Parcial</text>
+  <circle cx="210" cy="252" r="7" fill="#e53e3e"/>
+  <text x="220" y="256" fill="#333" font-size="8">No cumple</text>
+  <text x="330" y="256" fill="#999" font-size="7">Heurísticas de Nielsen</text>
+
+  <text x="200" y="285" fill="#2d5a3d" font-size="9" text-anchor="middle" font-weight="bold">Resultado: 2✓ 2~ 2✗ — Requiere refinamiento</text>
+  <text x="200" y="297" fill="#888" font-size="7" text-anchor="middle">La IA genera estructura, el diseñador refina la experiencia</text>
+</svg>

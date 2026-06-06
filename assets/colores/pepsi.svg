@@ -1,0 +1,33 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="400" height="300" fill="#f0f4f8"/>
+  <!-- Pepsi globe -->
+  <circle cx="200" cy="148" r="95" fill="white" stroke="#ddd" stroke-width="2"/>
+  <!-- Blue half -->
+  <path d="M 105,148 A 95,95 0 0,1 295,148 Q 250,100 200,105 Q 150,110 105,148 Z" fill="#004B93"/>
+  <!-- Red half -->
+  <path d="M 105,148 A 95,95 0 0,0 295,148 Q 250,195 200,190 Q 150,185 105,148 Z" fill="#ED1C24"/>
+  <!-- White wave -->
+  <path d="M 105,148 Q 150,110 200,120 Q 250,130 295,148 Q 250,168 200,158 Q 150,148 105,148 Z" fill="white"/>
+
+  <!-- Outer ring -->
+  <circle cx="200" cy="148" r="95" fill="none" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Color swatches -->
+  <rect x="20" y="258" width="35" height="25" rx="4" fill="#004B93" stroke="white" stroke-width="1"/>
+  <text x="37" y="295" fill="#333" font-size="7" text-anchor="middle">Azul</text>
+  <rect x="65" y="258" width="35" height="25" rx="4" fill="#ED1C24" stroke="white" stroke-width="1"/>
+  <text x="82" y="295" fill="#333" font-size="7" text-anchor="middle">Rojo</text>
+  <rect x="110" y="258" width="35" height="25" rx="4" fill="#F5F5F5" stroke="#ddd" stroke-width="1"/>
+  <text x="127" y="295" fill="#333" font-size="7" text-anchor="middle">Blanco</text>
+
+  <!-- Annotation -->
+  <rect x="238" y="50" width="148" height="90" rx="8" fill="white" stroke="#004B93" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="312" y="70" fill="#004B93" font-size="10" text-anchor="middle" font-weight="bold">Pepsi</text>
+  <text x="312" y="84" fill="#555" font-size="8" text-anchor="middle">Azul = frescura + confianza</text>
+  <text x="312" y="96" fill="#555" font-size="8" text-anchor="middle">Rojo = energía (diferenciador</text>
+  <text x="312" y="107" fill="#555" font-size="8" text-anchor="middle">vs Coca-Cola en azul)</text>
+  <text x="312" y="119" fill="#999" font-size="7" text-anchor="middle">Público: jóvenes y deportistas</text>
+  <text x="312" y="130" fill="#999" font-size="7" text-anchor="middle">imagen moderna y digital</text>
+
+  <text x="200" y="295" fill="#004B93" font-size="9" text-anchor="middle" font-weight="bold">Análisis de Color — Pepsi</text>
+</svg>

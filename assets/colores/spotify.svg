@@ -1,0 +1,27 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="400" height="300" fill="#191414"/>
+  <!-- Spotify circle logo -->
+  <circle cx="200" cy="140" r="90" fill="#1DB954"/>
+  <!-- Sound waves -->
+  <path d="M 145,105 Q 200,85 255,105" stroke="#191414" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 155,128 Q 200,112 245,128" stroke="#191414" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M 165,151 Q 200,139 235,151" stroke="#191414" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+  <!-- Color swatches -->
+  <rect x="20" y="248" width="40" height="30" rx="5" fill="#1DB954" stroke="#333" stroke-width="1"/>
+  <text x="40" y="293" fill="#aaa" font-size="8" text-anchor="middle">#1DB954</text>
+  <rect x="75" y="248" width="40" height="30" rx="5" fill="#191414" stroke="#555" stroke-width="1"/>
+  <text x="95" y="293" fill="#aaa" font-size="8" text-anchor="middle">#191414</text>
+  <rect x="130" y="248" width="40" height="30" rx="5" fill="#FFFFFF" stroke="#333" stroke-width="1"/>
+  <text x="150" y="293" fill="#aaa" font-size="8" text-anchor="middle">#FFFFFF</text>
+
+  <!-- Annotation box -->
+  <rect x="238" y="50" width="148" height="80" rx="8" fill="rgba(255,255,255,0.08)" stroke="#1DB954" stroke-width="1"/>
+  <text x="312" y="70" fill="#1DB954" font-size="10" text-anchor="middle" font-weight="bold">Spotify</text>
+  <text x="312" y="84" fill="#aaa" font-size="8" text-anchor="middle">Verde = moderno + digital</text>
+  <text x="312" y="96" fill="#aaa" font-size="8" text-anchor="middle">Negro = premium + contraste</text>
+  <text x="312" y="108" fill="#aaa" font-size="8" text-anchor="middle">Público: jóvenes 18-34</text>
+  <text x="312" y="120" fill="#666" font-size="7" text-anchor="middle">entretenimiento digital</text>
+
+  <text x="200" y="238" fill="#1DB954" font-size="10" text-anchor="middle" font-weight="bold">Análisis de Color — Spotify</text>
+</svg>
